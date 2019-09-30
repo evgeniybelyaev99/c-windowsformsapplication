@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\FormsApp1\FormsApp1\bin\Debug\FormsApp1.exe.config
+C:\Users\User\source\repos\FormsApp1\FormsApp1\bin\Debug\FormsApp1.exe
+C:\Users\User\source\repos\FormsApp1\FormsApp1\bin\Debug\FormsApp1.pdb
+C:\Users\User\source\repos\FormsApp1\FormsApp1\obj\Debug\FormsApp1.csprojAssemblyReference.cache
+C:\Users\User\source\repos\FormsApp1\FormsApp1\obj\Debug\FormsApp1.Form1.resources
+C:\Users\User\source\repos\FormsApp1\FormsApp1\obj\Debug\FormsApp1.Properties.Resources.resources
+C:\Users\User\source\repos\FormsApp1\FormsApp1\obj\Debug\FormsApp1.csproj.GenerateResource.cache
+C:\Users\User\source\repos\FormsApp1\FormsApp1\obj\Debug\FormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\FormsApp1\FormsApp1\obj\Debug\FormsApp1.exe
+C:\Users\User\source\repos\FormsApp1\FormsApp1\obj\Debug\FormsApp1.pdb
