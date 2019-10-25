@@ -83,7 +83,7 @@ namespace FormsApp1
             }
             return multi;
         }
-        private void button1_Click(object sender, EventArgs e)
+        private void generate_matrix(object sender, EventArgs e)
         {
             try
             {
@@ -112,7 +112,7 @@ namespace FormsApp1
             }
             catch
             {
-                
+
                 if (textBox1.Text == "" || textBox2.Text == "")
                 {
                     MessageBox.Show("Введите количество строк и столбцов!");
@@ -123,7 +123,8 @@ namespace FormsApp1
                 }
             }
         }
-        private void button2_Click(object sender, EventArgs e)
+    
+         private void max_in_str(object sender, EventArgs e)
         {
             try
             {
@@ -150,12 +151,11 @@ namespace FormsApp1
                     textBox5.Clear();
                 }
             }
-
         }
-        private void button3_Click(object sender, EventArgs e)
+       private void min_in_column(object sender, EventArgs e)
         {
             try
-            { 
+            {
                 int column = int.Parse(textBox4.Text);
                 if (column >= 0 && column < (int)matrix.ColumnCount)
                 {
@@ -180,7 +180,7 @@ namespace FormsApp1
                 }
             }
         }
-        private void button4_Click(object sender, EventArgs e)
+        private void avg_in_str(object sender, EventArgs e)
         {
             try {
                 int row = int.Parse(textBox9.Text);
@@ -208,7 +208,7 @@ namespace FormsApp1
             }
             
         }
-        private void button5_Click(object sender, EventArgs e)
+        private void product_of_column_elements(object sender, EventArgs e)
         {
             try
             {

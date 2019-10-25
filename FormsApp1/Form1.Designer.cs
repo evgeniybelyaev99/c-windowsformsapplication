@@ -52,18 +52,18 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(16, 86);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(297, 28);
             this.button1.TabIndex = 0;
             this.button1.Text = "Сгенерировать матрицу";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.generate_matrix);
             // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(16, 34);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(132, 22);
             this.textBox1.TabIndex = 1;
@@ -72,7 +72,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(180, 34);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(132, 22);
             this.textBox2.TabIndex = 2;
@@ -81,7 +81,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(180, 145);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(63, 22);
             this.textBox3.TabIndex = 5;
@@ -90,7 +90,7 @@
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(180, 196);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(63, 22);
             this.textBox4.TabIndex = 6;
@@ -99,7 +99,7 @@
             // 
             this.matrix.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.matrix.Location = new System.Drawing.Point(347, 34);
-            this.matrix.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.matrix.Margin = new System.Windows.Forms.Padding(4);
             this.matrix.Name = "matrix";
             this.matrix.Size = new System.Drawing.Size(643, 270);
             this.matrix.TabIndex = 10;
@@ -108,24 +108,24 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(16, 145);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(133, 28);
             this.button2.TabIndex = 11;
             this.button2.Text = "Макс в строке";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.max_in_str);
             // 
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(16, 193);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(133, 28);
             this.button3.TabIndex = 12;
             this.button3.Text = "Мин в столбце";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.Click += new System.EventHandler(this.min_in_column);
             // 
             // label1
             // 
@@ -154,7 +154,7 @@
             this.textBox5.BackColor = System.Drawing.SystemColors.Menu;
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox5.Location = new System.Drawing.Point(252, 149);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(61, 15);
             this.textBox5.TabIndex = 15;
@@ -165,7 +165,7 @@
             this.textBox6.BackColor = System.Drawing.SystemColors.Menu;
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox6.Location = new System.Drawing.Point(252, 202);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(61, 15);
             this.textBox6.TabIndex = 16;
@@ -174,7 +174,7 @@
             // textBox9
             // 
             this.textBox9.Location = new System.Drawing.Point(180, 241);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox9.Margin = new System.Windows.Forms.Padding(4);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(63, 22);
             this.textBox9.TabIndex = 19;
@@ -183,7 +183,7 @@
             // textBox10
             // 
             this.textBox10.Location = new System.Drawing.Point(180, 278);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox10.Margin = new System.Windows.Forms.Padding(4);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(63, 22);
             this.textBox10.TabIndex = 20;
@@ -194,7 +194,7 @@
             this.textBox11.BackColor = System.Drawing.SystemColors.Menu;
             this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox11.Location = new System.Drawing.Point(252, 245);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox11.Margin = new System.Windows.Forms.Padding(4);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(87, 15);
             this.textBox11.TabIndex = 21;
@@ -205,7 +205,7 @@
             this.textBox12.BackColor = System.Drawing.SystemColors.Menu;
             this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox12.Location = new System.Drawing.Point(252, 282);
-            this.textBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox12.Margin = new System.Windows.Forms.Padding(4);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(87, 15);
             this.textBox12.TabIndex = 22;
@@ -214,24 +214,24 @@
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(16, 238);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(133, 28);
             this.button4.TabIndex = 23;
             this.button4.Text = "Сред в строке";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button4.Click += new System.EventHandler(this.avg_in_str);
             // 
             // button5
             // 
             this.button5.Location = new System.Drawing.Point(16, 276);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(133, 28);
             this.button5.TabIndex = 24;
             this.button5.Text = "Пр эл-в столбца";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button5.Click += new System.EventHandler(this.product_of_column_elements);
             // 
             // Form1
             // 
@@ -256,7 +256,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
